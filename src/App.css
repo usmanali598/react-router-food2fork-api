@@ -125,7 +125,7 @@ input:-webkit-autofill {
 
 .container{
 display: flex;
-height: 850px;
+/* height: 850px; */
 }
 
 .active-recipe {

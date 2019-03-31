@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from "react-router-dom";
 
-const API_KEY = "c2bc3e95178172b9b0734c2b3e1a8b44";
+const API_KEY = "Your-API-KEY";
 
 class Recipe extends React.Component
 {

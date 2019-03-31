@@ -21,8 +21,9 @@ class App extends Component
   }
   componentDidMount = () =>
   {
+    //Comment this function for running first time, after loading app, comment it out
     const json = localStorage.getItem( "recipes" );
-    const recipes = JSON.parse( json );
+    const recipes = json !== null ? JSON.parse( json ) : this.state.recipes;
     this.setState( { recipes } );
   }
   componentDidUpdate = () =>
